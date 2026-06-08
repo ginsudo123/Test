@@ -1,0 +1,15 @@
+# Ignore all raw codebase directories
+/code
+encrypt_code.py
+
+# Ignore python caches and local env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+
+# Ignore encrypted state files, but allow the main generic archive test.enc
+*.enc
+!test.enc
