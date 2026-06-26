@@ -13,6 +13,18 @@ except ImportError:
     from cryptography.fernet import Fernet
 
 def main():
+    # Attempt to load .env file from the current directory if it exists
+    if os.path.exists(".env"):
+        try:
+            with open(".env", "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        os.environ[k.strip()] = v.strip().strip("'").strip('"')
+        except Exception as e:
+            print(f"Warning: Could not parse .env file: {e}")
+
     key_str = os.environ.get("AES_SECRET_KEY")
     if not key_str:
         print("Error: AES_SECRET_KEY environment variable is not set!")
