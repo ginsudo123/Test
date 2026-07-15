@@ -4,6 +4,21 @@ on:
   schedule:
     - cron: '0 */4 * * *'
   workflow_dispatch:
+    inputs:
+      scrapers:
+        description: 'Scrapers to run (comma-separated list, e.g. "amazon,flipkart", or "all")'
+        required: false
+        default: 'all'
+      once:
+        description: 'Run once and exit (no scheduler)'
+        required: false
+        type: boolean
+        default: false
+      no_sync:
+        description: 'Disable active-standby runner coordination'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   test:
@@ -22,4 +37,34 @@ jobs:
           AES_SECRET_KEY: ${{ secrets.AES_SECRET_KEY }}
           MONGO_DB_URL: ${{ secrets.MONGO_DB_URL }}
         run: |
-          python runner.py --all --runtime 5h55m
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Parse scrapers
+            if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
+              ARGS="$ARGS --all"
+            else
+              ARGS="$ARGS --run ${{ inputs.scrapers }}"
+            fi
+            
+            # Parse once flag
+            if [ "${{ inputs.once }}" = "true" ]; then
+              ARGS="$ARGS --once"
+            fi
+            
+            # Parse no-sync flag
+            if [ "${{ inputs.no_sync }}" = "true" ]; then
+              ARGS="$ARGS --no-sync"
+            fi
+            
+            # If not running once, apply scheduler runtime
+            if [ "${{ inputs.once }}" != "true" ]; then
+              ARGS="$ARGS --runtime 5h55m"
+            fi
+          else
+            # Default scheduled trigger parameters
+            ARGS="--all --runtime 5h55m"
+          fi
+          
+          echo "Executing: python runner.py $ARGS"
+          python runner.py $ARGS
+
