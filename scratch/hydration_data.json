@@ -1,0 +1,976 @@
+{
+    "loaderData": {
+        "root": {
+            "lang": "en",
+            "isDefault": true,
+            "renderProps": {
+                "params": {
+                    "renderParams": {
+                        "store": {},
+                        "locale": "en",
+                        "initialProps": {
+                            "pageUID": "1782455675253",
+                            "pageUrl": "/hyperlocal/pr?q=chocolates&marketplace=HYPERLOCAL&sid=search.flipkart.com&sort=price_asc&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore",
+                            "initialProps": "{\"screenType\":\"productListView\",\"type\":\"NAVIGATION\",\"originalUrl\":\"\",\"url\":\"/hyperlocal/pr?q=chocolates&marketplace=HYPERLOCAL&sid=search.flipkart.com&sort=price_asc&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore\",\"tracking\":{},\"params\":{\"renderParams\":{\"locale\":\"en\"},\"q\":\"chocolates\",\"marketplace\":\"HYPERLOCAL\",\"sid\":\"search.flipkart.com\",\"sort\":\"price_asc\",\"p\":[\"facets.discount_range_v1%5B%5D=50%25+or+more\"],\"screenName\":\"productList\",\"searchExtrasQuery\":\"chocolates\",\"isDlsScreen\":true},\"loginType\":\"LOGIN_NOT_REQUIRED\"}",
+                            "viewModel": {
+                                "animateAppBarSequentially": true,
+                                "presentationMode": 0,
+                                "navigationBarViewModel": {
+                                    "marketPlace": "HYPERLOCAL",
+                                    "showBackButton": true,
+                                    "omniBarColor": "#9F0145",
+                                    "backgroundColor": "#9F0145",
+                                    "titleColor": "#FFFFFFFF",
+                                    "navIcon": {
+                                        "uri": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/04/07/2018/046495cc-c0f7-46dd-99ef-a63f8833e4c8.png?q={@quality}"
+                                    },
+                                    "scrollBehaviour": {
+                                        "scrollEffect": 3,
+                                        "maxHeight": 52
+                                    },
+                                    "inBottomSheet": false
+                                },
+                                "windowFrame": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 762,
+                                    "height": 484
+                                },
+                                "devicePixelRatio": 1,
+                                "enableMultiBottomBar": true,
+                                "enablePersistentBottomBar": false,
+                                "isBBRevampEnabled": true,
+                                "tabContainerIdentifier": "HYPERLOCAL",
+                                "bottomBarEnabled": true
+                            },
+                            "commerceInBoxEnabled": false
+                        }
+                    },
+                    "bottomBarRenderParams": {
+                        "initialRenderParams": {
+                            "store": {},
+                            "locale": "en",
+                            "initialProps": {
+                                "pageUID": "1782455675255",
+                                "screenType": "productListView",
+                                "screenName": "productList",
+                                "initialProps": null,
+                                "viewModel": {
+                                    "windowFrame": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 762,
+                                        "height": 484
+                                    },
+                                    "themeContext": {
+                                        "locale": "en"
+                                    },
+                                    "windowSafeAreaInsets": {},
+                                    "enableMultiBottomBar": true,
+                                    "enablePersistentBottomBar": false,
+                                    "isBBRevampEnabled": true,
+                                    "bottomBarEnabled": true,
+                                    "tabContainerIdentifier": "HYPERLOCAL"
+                                },
+                                "bottomNavAppConfig": {
+                                    "barHeight": 64,
+                                    "allAppsConfig": {
+                                        "expandedImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/21/04/2020/1db57e60-55eb-4a57-9673-d821dd384a87.png?q={@quality}",
+                                        "collapsedImageUrl": "https://rukminim1.flixcart.com/www/{@width}/{@height}/promos/21/04/2020/c0a68e91-a6d5-4d5a-932e-fa926697cefc.png?q={@quality}",
+                                        "title": "AllApps",
+                                        "maxItemsPerRow": 5
+                                    },
+                                    "badgeStyle": {
+                                        "badgeBackgroundColor": "#ff4343",
+                                        "badgeTextColor": "#FFFFFF"
+                                    },
+                                    "barBackgroundColorMap": {
+                                        "homepage": "#FFFFFF",
+                                        "COIN_ZONE": "#FFFFFF",
+                                        "gameZone": "#FFFFFF",
+                                        "travel": "#FFFFFF",
+                                        "FLICK_HOME": "#242424",
+                                        "IDEAS_FULLSCREEN": "#242424"
+                                    },
+                                    "barItemStyle": {
+                                        "tintColor": "#54585e",
+                                        "selectedTintColor": "#2874f0",
+                                        "theme": {
+                                            "dark": {
+                                                "type": "dark",
+                                                "tintColor": "#C2C2C2",
+                                                "selectedTintColor": "#FFFFFF",
+                                                "bgColor": "#1F1F1F",
+                                                "separatorColor": "#000000B8",
+                                                "active": {
+                                                    "fillColor": "#FFFFFF",
+                                                    "strokeColor": "#FFFFFF",
+                                                    "textColor": "#FFFFFF"
+                                                },
+                                                "inactive": {
+                                                    "fillColor": "#00000000",
+                                                    "strokeColor": "#C2C2C2",
+                                                    "textColor": "#FFFFFF"
+                                                }
+                                            },
+                                            "light": {
+                                                "type": "light",
+                                                "tintColor": "#54585E",
+                                                "selectedTintColor": "#2874F0",
+                                                "bgColor": "#FFFFFF",
+                                                "separatorColor": "#00000014",
+                                                "active": {
+                                                    "fillColor": "#1254E7",
+                                                    "strokeColor": "#1254E7",
+                                                    "textColor": "#1254E7"
+                                                },
+                                                "inactive": {
+                                                    "fillColor": "#00000000",
+                                                    "strokeColor": "#707070",
+                                                    "textColor": "#1F1F1F"
+                                                }
+                                            },
+                                            "grocery_light": {
+                                                "type": "grocery_light",
+                                                "tintColor": "#54585E",
+                                                "selectedTintColor": "#2874F0",
+                                                "bgColor": "#FFFFFF",
+                                                "separatorColor": "#00000014",
+                                                "active": {
+                                                    "fillColor": "#17834F",
+                                                    "strokeColor": "#17834F",
+                                                    "textColor": "#17834F"
+                                                },
+                                                "inactive": {
+                                                    "fillColor": "#00000000",
+                                                    "strokeColor": "#707070",
+                                                    "textColor": "#1F1F1F"
+                                                }
+                                            },
+                                            "minutes_light": {
+                                                "type": "minutes_light",
+                                                "tintColor": "#54585E",
+                                                "selectedTintColor": "#B9004C",
+                                                "bgColor": "#FFFFFF",
+                                                "separatorColor": "#00000014",
+                                                "active": {
+                                                    "fillColor": "#B9004C",
+                                                    "strokeColor": "#B9004C",
+                                                    "textColor": "#B9004C"
+                                                },
+                                                "inactive": {
+                                                    "fillColor": "#00000000",
+                                                    "strokeColor": "#707070",
+                                                    "textColor": "#1F1F1F"
+                                                }
+                                            },
+                                            "hyperlocal_light": {
+                                                "type": "hyperlocal_light",
+                                                "tintColor": "#54585E",
+                                                "selectedTintColor": "#B9004C",
+                                                "bgColor": "#FFFFFF",
+                                                "separatorColor": "#00000014",
+                                                "active": {
+                                                    "fillColor": "#B9004C",
+                                                    "strokeColor": "#B9004C",
+                                                    "textColor": "#B9004C"
+                                                },
+                                                "inactive": {
+                                                    "fillColor": "#00000000",
+                                                    "strokeColor": "#707070",
+                                                    "textColor": "#1F1F1F"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "bottomBarWithCustomHeightEnabled": true,
+                                    "dlsConfig": {
+                                        "barItemStyle": {
+                                            "tintColor": "raw.grey.500",
+                                            "selectedTintColor": "raw.blue.500"
+                                        },
+                                        "badgeStyle": {
+                                            "badgeBackgroundColor": "raw.orange.500",
+                                            "badgeTextColor": "common.white"
+                                        },
+                                        "allAppsConfig": {
+                                            "expandedIcon": "allAppExpanded",
+                                            "collapsedIcon": "allAppCollapsed"
+                                        },
+                                        "tooltipText": {
+                                            "backgroundColor": "raw.blue.500",
+                                            "textColor": "common.white"
+                                        },
+                                        "barBackgroundColorMap": {
+                                            "homepage": "common.white",
+                                            "COIN_ZONE": "common.white",
+                                            "gameZone": "common.white",
+                                            "travel": "common.white",
+                                            "FLICK_HOME": "raw.grey.800",
+                                            "IDEAS_FULLSCREEN": "raw.grey.800"
+                                        },
+                                        "dlsBarIconMap": {
+                                            "/": "HOME",
+                                            "/supercoin": "SUPERCOIN",
+                                            "/credit-store": "CREDIT",
+                                            "/flipkart-quick-store": "QUICK",
+                                            "/gamezone": "GAME",
+                                            "/sell-back-store": "SMART_STORE",
+                                            "/userfeeds/timeline": "VIDEO",
+                                            "/rv/credit/landing-page": "CREDIT"
+                                        }
+                                    },
+                                    "iconSize": 32,
+                                    "screenNameThemeMap": {
+                                        "homepage": "light",
+                                        "clp": "light",
+                                        "REEL_SHOP": "dark"
+                                    },
+                                    "tooltipText": {
+                                        "backgroundColor": "#2874f0",
+                                        "textColor": "#FFFFFF",
+                                        "text": "Explore More on Flipkart"
+                                    },
+                                    "multiBottomBarConfig": {
+                                        "globalBlacklistConfig": {
+                                            "routeUrlsBlacklist": [
+                                                "/changelanguage",
+                                                "/about-app",
+                                                "/viewcheckout",
+                                                "/flipkart-pay-store",
+                                                "/upi-scan-pay",
+                                                "/upi/select-payee",
+                                                "/review-image-fullscreen",
+                                                "/review-video-fullscreen",
+                                                "/hyperlocal-preview-page",
+                                                "/reelshop/timeline/fs",
+                                                "/reelshop/playlist/fs",
+                                                "/reelshop/collection/contents",
+                                                "/orderresponse",
+                                                "/cx/order_confirmation",
+                                                "/chat",
+                                                "/ama",
+                                                "/test-biz-all-store",
+                                                "/exchange/assessment",
+                                                "/pages/returnpolicy",
+                                                "productImageGallery",
+                                                "/video-player"
+                                            ],
+                                            "routeUrlsBlacklistRegex": [
+                                                "^\\/checkout\\/changeShippingAddress.*",
+                                                "^\\/rv\\/.*",
+                                                "^\\/fpg.*",
+                                                "^\\/payments.*",
+                                                "^\\/item\\/product\\-warranty.*",
+                                                "^\\/tradein.*",
+                                                "^\\/dl\\/livestream\\/.*",
+                                                "^\\/livestream\\/.*",
+                                                "^\\/login.*",
+                                                "^\\/signup.*",
+                                                "^\\/verify.*"
+                                            ],
+                                            "tabContainerIdentifierBlacklist": [
+                                                "PAY"
+                                            ],
+                                            "screenTypeBlacklist": [],
+                                            "screenNameBlacklist": [
+                                                "payments"
+                                            ]
+                                        },
+                                        "containerBlacklistConfig": {
+                                            "FLIPKART": {
+                                                "routeUrlsBlacklist": [],
+                                                "routeUrlsBlacklistRegex": [],
+                                                "tabContainerIdentifierBlacklist": [],
+                                                "screenTypeBlacklist": [],
+                                                "screenNameBlacklist": [
+                                                    "UPI_PAGE"
+                                                ]
+                                            }
+                                        },
+                                        "additionalParams": {
+                                            "deferredBottomBarLoadTimeout": 3000,
+                                            "enableBBRevamp": false,
+                                            "backPressNavOverrides": {
+                                                "/rv/orders": [
+                                                    "/"
+                                                ],
+                                                "/rv/orderConfirmation/orderresponse": [
+                                                    "/"
+                                                ]
+                                            }
+                                        },
+                                        "navTabIdentifierMap": {
+                                            "FLIPKART": {
+                                                "bottomBarEnabled": true,
+                                                "relativeUrls": [
+                                                    "/",
+                                                    "homepage"
+                                                ],
+                                                "regexUrls": []
+                                            },
+                                            "GROCERY": {
+                                                "bottomBarEnabled": false,
+                                                "relativeUrls": [
+                                                    "/grocery-supermart-store",
+                                                    "/grocery-store"
+                                                ],
+                                                "regexUrls": []
+                                            },
+                                            "HYPERLOCAL": {
+                                                "bottomBarEnabled": false,
+                                                "relativeUrls": [
+                                                    "/flipkart-minutes-store?marketplace=HYPERLOCAL",
+                                                    "/flipkart-minutes-store"
+                                                ],
+                                                "regexUrls": []
+                                            },
+                                            "HYPERLOCAL_WITHOUT_LAT_LNG": {
+                                                "bottomBarEnabled": false,
+                                                "relativeUrls": [
+                                                    "/hyperlocal-preview-page"
+                                                ],
+                                                "regexUrls": []
+                                            },
+                                            "PAY": {
+                                                "bottomBarEnabled": false,
+                                                "relativeUrls": [
+                                                    "/flipkart-pay-store"
+                                                ],
+                                                "regexUrls": []
+                                            },
+                                            "TRAVEL": {
+                                                "bottomBarEnabled": false,
+                                                "relativeUrls": [
+                                                    "/flights-travel-uhp-at-store"
+                                                ],
+                                                "regexUrls": []
+                                            }
+                                        },
+                                        "ambientSecludedUrls": {
+                                            "regexUrls": [
+                                                ".*?/p/.*?",
+                                                ".*?/pr"
+                                            ],
+                                            "relativeUrls": [
+                                                "/autoSuggest",
+                                                "/search"
+                                            ]
+                                        }
+                                    },
+                                    "defaultBottomBarResponse": {
+                                        "bottomBars": {
+                                            "HYPERLOCAL": {
+                                                "bottomBarVisibilityUrls": [
+                                                    "/flipkart-minutes-store?marketplace=HYPERLOCAL",
+                                                    "/flipkart-minutes-bottombar-category-store?marketplace=HYPERLOCAL",
+                                                    "/hyperlocal-fresh-at-store",
+                                                    "/hyperlocal-grocery-at-store",
+                                                    "/hyperlocal-christmas-inline-at-store",
+                                                    "/hyperlocal-winter-inline-at-store",
+                                                    "/hyperlocal-offer-zone-at-store",
+                                                    "/hyperlocal-beauty-at-store",
+                                                    "/hyperlocal-electronics-at-store",
+                                                    "/hyperlocal-home-sha-at-store",
+                                                    "/mobile-minutes-inline-bau-at-store",
+                                                    "/hyperlocal-baby-care-at-store",
+                                                    "/hyperlocal-fashion-at-store",
+                                                    "/hyperlocal-gourmet-at-store",
+                                                    "/hyperlocal-wedding-inline-at-store",
+                                                    "/hyperlocal-paan-corner-at-store",
+                                                    "/hyperlocal-rbo-store",
+                                                    "/viewcart?marketplace=HYPERLOCAL"
+                                                ],
+                                                "bottomBarWidget": {
+                                                    "type": "BOTTOM_BAR",
+                                                    "viewType": "SUPER_APP",
+                                                    "data": {
+                                                        "contents": [
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/flipkart-minutes-store?marketplace=HYPERLOCAL",
+                                                                    "params": {
+                                                                        "screenName": "clp",
+                                                                        "store": "flipkart-minutes-store",
+                                                                        "marketplace": "HYPERLOCAL",
+                                                                        "url": "http://www.flipkart.com/flipkart-minutes-store"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.M97LKB957EXQ",
+                                                                        "contentTag": "Home",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)_Home_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)_NA_NA_Home_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Home",
+                                                                        "title_primary": "flipkart-minutes-store"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/flipkart-minutes-store?marketplace=HYPERLOCAL"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_HOME_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Home",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.M97LKB957EXQ",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)_Home_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=m97lkb957exq, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/flipkart-minutes-store?marketplace=hyperlocal, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-store?marketplace=hyperlocal), contentid=null)_NA_NA_Home_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Home",
+                                                                    "title_primary": "flipkart-minutes-store"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Home.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Home"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/flipkart-minutes-bottombar-category-store?marketplace=HYPERLOCAL",
+                                                                    "params": {
+                                                                        "screenName": "clp",
+                                                                        "store": "flipkart-minutes-bottombar-category-store",
+                                                                        "marketplace": "HYPERLOCAL",
+                                                                        "url": "http://www.flipkart.com/flipkart-minutes-bottombar-category-store"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.1A9S2JD4LY4E",
+                                                                        "contentTag": "Cate",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)_Categories_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)_NA_NA_Categories_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Categories",
+                                                                        "title_primary": "flipkart-minutes-bottombar-category-store"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/flipkart-minutes-bottombar-category-store?marketplace=HYPERLOCAL"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_CATEGORIES_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Cate",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.1A9S2JD4LY4E",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)_Categories_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=1a9s2jd4ly4e, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/flipkart-minutes-bottombar-category-store?marketplace=hyperlocal), contentid=null)_NA_NA_Categories_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Categories",
+                                                                    "title_primary": "flipkart-minutes-bottombar-category-store"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Category.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Categories"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "constraints": [],
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/hyperlocal-rbo-store?marketplace=HYPERLOCAL",
+                                                                    "params": {
+                                                                        "screenName": "clp",
+                                                                        "store": "hyperlocal-rbo-store",
+                                                                        "marketplace": "HYPERLOCAL",
+                                                                        "url": "/hyperlocal-rbo-store"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_d3fca1cd-b351-4a70-b5c2-5065aaaa50e4_1.OUWUDWE9KLPI",
+                                                                        "contentTag": "Buy ",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)_Buy+Again_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)_NA_NA_Buy+Again_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/merchandising",
+                                                                        "widgetTitle": "Buy Again",
+                                                                        "title_primary": "hyperlocal-rbo-store"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/hyperlocal-rbo-store?marketplace=HYPERLOCAL"
+                                                                },
+                                                                "tracking": {
+                                                                    "contentTag": "Buy ",
+                                                                    "impressionId": "M_d3fca1cd-b351-4a70-b5c2-5065aaaa50e4_1.OUWUDWE9KLPI",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/merchandising",
+                                                                    "otracker": "$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)_Buy+Again_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=ouwudwe9klpi, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/buyagainv2.svg, aspectratio=null), title=buy again, landingurl=/hyperlocal-rbo-store?marketplace=hyperlocal, badge=null, tracking={contenttag=buy }, lottieanimation=null, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/hyperlocal-rbo-store?marketplace=hyperlocal), contentid=null)_NA_NA_Buy+Again_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Buy Again",
+                                                                    "title_primary": "hyperlocal-rbo-store"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/minutes/BuyAgainV2.svg",
+                                                                        "height": 0,
+                                                                        "width": 0,
+                                                                        "aspectRatio": "1:1"
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Buy Again"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/viewcart?marketplace=HYPERLOCAL",
+                                                                    "params": {
+                                                                        "valid": true,
+                                                                        "marketplace": "HYPERLOCAL",
+                                                                        "screenName": "CART_PAGE"
+                                                                    },
+                                                                    "screenType": "basket",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.17QDZUPK5114",
+                                                                        "contentTag": "Bask",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)_Basket_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)_NA_NA_Basket_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Basket"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "http://www.flipkart.com/viewcart?marketplace=HYPERLOCAL"
+                                                                },
+                                                                "tracking": {
+                                                                    "contentTag": "Bask",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1.17QDZUPK5114",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)_Basket_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=17qdzupk5114, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/basketv3.svg, aspectratio=null), title=basket, landingurl=/viewcart?marketplace=hyperlocal, badge=null, tracking={contenttag=bask}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?marketplace=hyperlocal), contentid=null)_NA_NA_Basket_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Basket"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/kilos/BasketV3.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Basket"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "upFrontItemsCount": 3
+                                                    },
+                                                    "tracking": {
+                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_1",
+                                                        "contextType": "page",
+                                                        "contentType": "CONTENT_COLLECTION",
+                                                        "findingMethod": "neo/navigation"
+                                                    }
+                                                },
+                                                "timeToLive": 30000
+                                            },
+                                            "FLIPKART": {
+                                                "bottomBarVisibilityUrls": [
+                                                    "/",
+                                                    "/reelshop/timeline/hp",
+                                                    "/allcat-l0-foryou-store",
+                                                    "/my-account",
+                                                    "/viewcart?exploreMode=TRUE&preference=FLIPKART",
+                                                    "/women-inline-clp-at-store",
+                                                    "/mobile-phone-ab-at-store",
+                                                    "/new-elec-clp-march-at-store",
+                                                    "/bpc-2025-new-at-store",
+                                                    "/home-kitchen-25-at-store",
+                                                    "/tv-and-appliances-inline-ab-at-store",
+                                                    "/fnhc-2025-new-at-store",
+                                                    "/toys-baby-2025-new-at-store",
+                                                    "/aa-2025-new-at-store",
+                                                    "/sf-2025-new-at-store",
+                                                    "/india-ka-furniture-studio-inlines-at-store",
+                                                    "/twowheelers-at-store",
+                                                    "/fashion-inline-clp-at-store",
+                                                    "/spl-base-2025-at-store",
+                                                    "/aw-men-ub-new-at-store",
+                                                    "/bpc-bau-new-inline-at-store",
+                                                    "/sf-inline-2025-at-store",
+                                                    "/bds-sale-at-store",
+                                                    "/booksmedia-2025-at-store",
+                                                    "/bsd-base-25-at-store",
+                                                    "/bpc-bsd25-at-store",
+                                                    "/fn-hc-newbsd-25-at-store",
+                                                    "/tassbc-bsd25-at-store",
+                                                    "/auto-bsd25-at-store",
+                                                    "/sports-bsd25-at-store",
+                                                    "/bigshoppingdays-booksmedia-at-store",
+                                                    "/bsd-men-b-25-at-store",
+                                                    "/bsd-men-ub-25-at-store",
+                                                    "/bsd-women-b-25-at-store",
+                                                    "/bsd-women-ub-25-at-store"
+                                                ],
+                                                "bottomBarWidget": {
+                                                    "type": "BOTTOM_BAR",
+                                                    "viewType": "SUPER_APP",
+                                                    "data": {
+                                                        "contents": [
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/",
+                                                                    "params": {
+                                                                        "valid": true,
+                                                                        "screenName": "homepage",
+                                                                        "navTabId": "FLIPKART"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.8ZDQI64R4EE2",
+                                                                        "contentTag": "Home",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)_Home_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)_NA_NA_Home_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Home"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_HOME_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Home",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.8ZDQI64R4EE2",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)_Home_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=8zdqi64r4ee2, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/home.svg, aspectratio=null), title=home, landingurl=/, badge=null, tracking={contenttag=home}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/), contentid=null)_NA_NA_Home_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Home"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Home.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Home"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/allcat-l0-foryou-store",
+                                                                    "params": {
+                                                                        "screenName": "clp",
+                                                                        "store": "allcat-l0-foryou-store",
+                                                                        "url": "http://www.flipkart.com/allcat-l0-foryou-store"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.H4EPT8TBSF6U",
+                                                                        "contentTag": "Cate",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)_Categories_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)_NA_NA_Categories_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Categories",
+                                                                        "title_primary": "allcat-l0-foryou-store"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/allcat-l0-foryou-store"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_CATEGORIES_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Cate",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.H4EPT8TBSF6U",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)_Categories_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=h4ept8tbsf6u, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/category.svg, aspectratio=null), title=categories, landingurl=/allcat-l0-foryou-store, badge=null, tracking={contenttag=cate}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/allcat-l0-foryou-store), contentid=null)_NA_NA_Categories_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Categories",
+                                                                    "title_primary": "allcat-l0-foryou-store"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "aspectRatio": "1:1",
+                                                                        "type": "ImageValue",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Category.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Categories"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/my-account",
+                                                                    "params": {
+                                                                        "valid": true,
+                                                                        "url": "/my-account"
+                                                                    },
+                                                                    "screenType": "multiWidgetPage",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.QY1OCSBV80VE",
+                                                                        "contentTag": "Acco",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)_Account_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)_NA_NA_Account_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Account"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "/my-account"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_ACCOUNT_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Acco",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.QY1OCSBV80VE",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)_Account_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=qy1ocsbv80ve, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/account.svg, aspectratio=null), title=account, landingurl=/my-account, badge=null, tracking={contenttag=acco}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/my-account), contentid=null)_NA_NA_Account_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Account"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Account.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Account"
+                                                                }
+                                                            },
+                                                            {
+                                                                "action": {
+                                                                    "fallback": {
+                                                                        "loginType": "LOGIN_NOT_REQUIRED",
+                                                                        "params": {
+                                                                            "valid": true,
+                                                                            "url": "https://m.flipkart.com/rv/viewcart"
+                                                                        },
+                                                                        "screenType": "webView",
+                                                                        "tracking": {
+                                                                            "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.LX9ES5AFHRS7",
+                                                                            "contentTag": "Cart",
+                                                                            "contextType": "page",
+                                                                            "otracker": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_Cart_1",
+                                                                            "position": "1",
+                                                                            "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                            "widgetType": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)",
+                                                                            "otracker1": "NA_$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_NA_NA_Cart_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                            "findingMethod": "neo/navigation",
+                                                                            "widgetTitle": "Cart"
+                                                                        },
+                                                                        "type": "NAVIGATION",
+                                                                        "url": "http://www.flipkart.com/viewcart",
+                                                                        "originalUrl": "/viewcart"
+                                                                    },
+                                                                    "loginType": "LOGIN_NOT_REQUIRED",
+                                                                    "originalUrl": "/viewcart?exploreMode=TRUE&preference=FLIPKART",
+                                                                    "params": {
+                                                                        "valid": true,
+                                                                        "screenName": "CART_PAGE"
+                                                                    },
+                                                                    "screenType": "showCart",
+                                                                    "tracking": {
+                                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.LX9ES5AFHRS7",
+                                                                        "contentTag": "Cart",
+                                                                        "contextType": "page",
+                                                                        "otracker": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_Cart_1",
+                                                                        "position": "1",
+                                                                        "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                        "widgetType": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)",
+                                                                        "otracker1": "NA_$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_NA_NA_Cart_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                        "findingMethod": "neo/navigation",
+                                                                        "widgetTitle": "Cart"
+                                                                    },
+                                                                    "type": "NAVIGATION",
+                                                                    "url": "http://www.flipkart.com/viewcart?exploreMode=TRUE&preference=FLIPKART"
+                                                                },
+                                                                "rcType": "BOTTOM_BAR_CART_RC",
+                                                                "tracking": {
+                                                                    "contentTag": "Cart",
+                                                                    "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2.LX9ES5AFHRS7",
+                                                                    "contextType": "page",
+                                                                    "contentType": "BOTTOM_BAR_NAVIGATION_CARD",
+                                                                    "findingMethod": "neo/navigation",
+                                                                    "otracker": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_Cart_1",
+                                                                    "position": "1",
+                                                                    "widgetType": "$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)",
+                                                                    "otracker1": "NA_$bottombarnavigationcard(id=lx9es5afhrs7, image=image(imageurl=https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/cart.svg, aspectratio=null), title=cart, landingurl=/viewcart?exploremode=true&preference=flipkart, badge=null, tracking={contenttag=cart}, actionparams={}, bottombarvisibility=bottombarvisibility(landingactiontype=url, landingactionidentifier=/viewcart?exploremode=true&preference=flipkart), contentid=null)_NA_NA_Cart_NA_BOTTOM_BAR_NAVIGATION_CARD_cc_1_NA_view-all",
+                                                                    "widgetTitle": "Cart"
+                                                                },
+                                                                "value": {
+                                                                    "type": "BottomBarV2ItemValue",
+                                                                    "icon": {
+                                                                        "type": "ImageValue",
+                                                                        "aspectRatio": "1:1",
+                                                                        "dynamicImageUrl": "https://static-assets-web.flixcart.com/apex-static/images/svgs/bottombar/superapp/Cart.svg",
+                                                                        "height": 0,
+                                                                        "width": 0
+                                                                    },
+                                                                    "themeType": "light",
+                                                                    "title": "Cart"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "upFrontItemsCount": 4
+                                                    },
+                                                    "tracking": {
+                                                        "impressionId": "M_fd57394a-caf2-44c1-a3fe-1f476afd6a5b_2",
+                                                        "contextType": "page",
+                                                        "contentType": "CONTENT_COLLECTION",
+                                                        "findingMethod": "neo/navigation"
+                                                    }
+                                                },
+                                                "timeToLive": 30000
+                                            }
+                                        },
+                                        "navTabIdentifierMap": {
+                                            "HYPERLOCAL": {
+                                                "bottomBarEnabled": true,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/flipkart-minutes-store?marketplace=HYPERLOCAL",
+                                                    "/flipkart-minutes-store"
+                                                ]
+                                            },
+                                            "TRAVEL": {
+                                                "bottomBarEnabled": false,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/flights-travel-uhp-at-store",
+                                                    "/travel/flights/hp"
+                                                ]
+                                            },
+                                            "PAY": {
+                                                "bottomBarEnabled": false,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/flipkart-pay-store"
+                                                ]
+                                            },
+                                            "HYPERLOCAL_WITHOUT_LAT_LNG": {
+                                                "bottomBarEnabled": false,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/hyperlocal-preview-page"
+                                                ]
+                                            },
+                                            "FLIPKART": {
+                                                "bottomBarEnabled": true,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/",
+                                                    "homepage"
+                                                ]
+                                            },
+                                            "GROCERY": {
+                                                "bottomBarEnabled": true,
+                                                "regexUrls": [],
+                                                "relativeUrls": [
+                                                    "/grocery-supermart-store",
+                                                    "/grocery-store"
+                                                ]
+                                            }
+                                        },
+                                        "extraParams": {
+                                            "enablePersistentBottomBar": true,
+                                            "enableMultiBottomBar": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "reduxStore": {}
+        },
+        "hyperlocal-route-en": {
+            "matchedData": {
+                "handle": {
+                    "name": "hyperlocalBrowse",
+                    "inlineCriticalCss": true,
+                    "screenName": "productList",
+                    "screenType": "productListView",
+                    "isCrossPlatformPage": true,
+                    "isDlsScreen": true,
+                    "isSSR": true,
+                    "cosmosPageName": "SEARCH_PAGE",
+                    "chunkName": "GroceryBrowsePageHelper"
+                },
+                "componentKey": "grocery-browse"
+            }
+        }
+    },
+    "actionData": null,
+    "errors": null
+}
