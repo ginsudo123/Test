@@ -1,4 +1,6 @@
 name: Test Run
+with:
+    lfs: true
 
 on:
   schedule:
