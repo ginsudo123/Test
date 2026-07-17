@@ -44,11 +44,16 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Parse scrapers
-            if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
-              ARGS="$ARGS --all"
+            # Parse auto-checkout-only flag
+            if [ "${{ inputs.auto_checkout_only }}" = "true" ]; then
+              ARGS="$ARGS --auto-checkout-only"
             else
-              ARGS="$ARGS --run ${{ inputs.scrapers }}"
+              # Parse scrapers only when auto-checkout-only is not enabled
+              if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
+                ARGS="$ARGS --all"
+              else
+                ARGS="$ARGS --run ${{ inputs.scrapers }}"
+              fi
             fi
             
             # Parse once flag
@@ -59,11 +64,6 @@ jobs:
             # Parse no-sync flag
             if [ "${{ inputs.no_sync }}" = "true" ]; then
               ARGS="$ARGS --no-sync"
-            fi
-
-            # Parse auto-checkout-only flag
-            if [ "${{ inputs.auto_checkout_only }}" = "true" ]; then
-              ARGS="$ARGS --auto-checkout-only"
             fi
             
             # If not running once, apply scheduler runtime
