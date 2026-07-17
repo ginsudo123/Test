@@ -13,3 +13,5 @@ __pycache__/
 # Ignore encrypted state files, but allow the main generic archive test.enc
 *.enc
 !test.enc
+
+scratch/

@@ -19,6 +19,11 @@ on:
         required: false
         type: boolean
         default: false
+      auto_checkout_only:
+        description: 'Run only the Telegram deal monitor + auto-checkout pipeline (no scrapers)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   test:
@@ -54,6 +59,11 @@ jobs:
             # Parse no-sync flag
             if [ "${{ inputs.no_sync }}" = "true" ]; then
               ARGS="$ARGS --no-sync"
+            fi
+
+            # Parse auto-checkout-only flag
+            if [ "${{ inputs.auto_checkout_only }}" = "true" ]; then
+              ARGS="$ARGS --auto-checkout-only"
             fi
             
             # If not running once, apply scheduler runtime
