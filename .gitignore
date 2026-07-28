@@ -10,8 +10,8 @@ __pycache__/
 .pytest_cache/
 .env
 
-# Ignore encrypted state files, but allow the main generic archive test.enc
+# Ignore encrypted state files & binary code archive
 *.enc
-!test.enc
+test.enc
 
 scratch/

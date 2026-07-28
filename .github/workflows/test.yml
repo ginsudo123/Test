@@ -30,7 +30,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: nschloe/action-cached-lfs-checkout@v1
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Download test.enc from GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Downloading test.enc from GitHub Release asset..."
+          gh release download latest --pattern "test.enc" --repo ginsudo123/Test --clobber || \
+          curl -L -o test.enc "https://github.com/ginsudo123/Test/releases/download/latest/test.enc"
 
       - name: Set up Python
         uses: actions/setup-python@v5
