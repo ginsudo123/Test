@@ -10,8 +10,9 @@ __pycache__/
 .pytest_cache/
 .env
 
-# Ignore encrypted state files & binary code archive
+# Ignore encrypted state files & binary code archive (test.enc is now tracked directly)
 *.enc
-test.enc
+!test.enc
+
 
 scratch/

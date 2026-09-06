@@ -19,11 +19,6 @@ on:
         required: false
         type: boolean
         default: false
-      auto_checkout_only:
-        description: 'Run only the Telegram deal monitor + auto-checkout pipeline (no scrapers)'
-        required: false
-        type: boolean
-        default: false
 
 jobs:
   test:
@@ -31,16 +26,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          lfs: false
-
-      - name: Download test.enc from GitHub Release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Downloading test.enc from GitHub Release asset..."
-          gh release download latest --pattern "test.enc" --repo ginsudo123/Test --clobber || \
-          curl -L -o test.enc "https://github.com/ginsudo123/Test/releases/download/latest/test.enc"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -54,16 +39,10 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Parse auto-checkout-only flag
-            if [ "${{ inputs.auto_checkout_only }}" = "true" ]; then
-              ARGS="$ARGS --auto-checkout-only"
+            if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
+              ARGS="$ARGS --all"
             else
-              # Parse scrapers only when auto-checkout-only is not enabled
-              if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
-                ARGS="$ARGS --all"
-              else
-                ARGS="$ARGS --run ${{ inputs.scrapers }}"
-              fi
+              ARGS="$ARGS --run ${{ inputs.scrapers }}"
             fi
             
             # Parse once flag
@@ -87,4 +66,5 @@ jobs:
           
           echo "Executing: python runner.py $ARGS"
           python runner.py $ARGS
+
 
