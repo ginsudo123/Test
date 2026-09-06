@@ -41,9 +41,7 @@ jobs:
           IS_ONCE="true"
           
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
-              ARGS="$ARGS --all"
-            else
+            if [ -n "${{ inputs.scrapers }}" ] && [ "${{ inputs.scrapers }}" != "all" ]; then
               ARGS="$ARGS --run ${{ inputs.scrapers }}"
             fi
             
@@ -58,9 +56,10 @@ jobs:
             fi
           else
             # Default scheduled trigger parameters (runs every 4 hours via cron)
-            ARGS="--all"
+            ARGS=""
             IS_ONCE="true"
           fi
+
           
           TOTAL_SECONDS=14100 # 3 hours 55 minutes
           
