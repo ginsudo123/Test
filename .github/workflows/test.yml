@@ -10,10 +10,10 @@ on:
         required: false
         default: 'all'
       once:
-        description: 'Run once and exit (no scheduler)'
+        description: 'Run once mode in loop for 3h55m'
         required: false
         type: boolean
-        default: false
+        default: true
       no_sync:
         description: 'Disable active-standby runner coordination'
         required: false
@@ -38,6 +38,8 @@ jobs:
           MONGO_DB_URL: ${{ secrets.MONGO_DB_URL }}
         run: |
           ARGS=""
+          IS_ONCE="true"
+          
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             if [ "${{ inputs.scrapers }}" = "all" ] || [ -z "${{ inputs.scrapers }}" ]; then
               ARGS="$ARGS --all"
@@ -45,26 +47,43 @@ jobs:
               ARGS="$ARGS --run ${{ inputs.scrapers }}"
             fi
             
-            # Parse once flag
-            if [ "${{ inputs.once }}" = "true" ]; then
-              ARGS="$ARGS --once"
-            fi
-            
             # Parse no-sync flag
             if [ "${{ inputs.no_sync }}" = "true" ]; then
               ARGS="$ARGS --no-sync"
             fi
             
-            # If not running once, apply scheduler runtime
-            if [ "${{ inputs.once }}" != "true" ]; then
-              ARGS="$ARGS --runtime 5h55m"
+            # Check once input
+            if [ "${{ inputs.once }}" = "false" ]; then
+              IS_ONCE="false"
             fi
           else
-            # Default scheduled trigger parameters
-            ARGS="--all --runtime 5h55m"
+            # Default scheduled trigger parameters (runs every 4 hours via cron)
+            ARGS="--all"
+            IS_ONCE="true"
           fi
           
-          echo "Executing: python runner.py $ARGS"
-          python runner.py $ARGS
+          TOTAL_SECONDS=14100 # 3 hours 55 minutes
+          
+          if [ "$IS_ONCE" = "true" ]; then
+            echo "Starting --once loop mode for 3 hours 55 minutes..."
+            END_TIME=$(( $(date +%s) + TOTAL_SECONDS ))
+            ITERATION=1
+            while [ $(date +%s) -lt $END_TIME ]; do
+              echo "=== Starting Iteration $ITERATION at $(date) ==="
+              python runner.py $ARGS --once || true
+              ITERATION=$((ITERATION + 1))
+              REMAINING=$(( END_TIME - $(date +%s) ))
+              if [ $REMAINING -le 30 ]; then
+                echo "Time limit reached (remaining: ${REMAINING}s). Exiting loop cleanly."
+                break
+              fi
+              echo "Iteration complete. Waiting 30s before next iteration (remaining: ${REMAINING}s)..."
+              sleep 30
+            done
+          else
+            echo "Executing with built-in scheduler: python runner.py $ARGS --runtime 3h55m"
+            python runner.py $ARGS --runtime 3h55m
+          fi
+
 
 
