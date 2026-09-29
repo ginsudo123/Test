@@ -41,9 +41,11 @@ jobs:
 
       - name: Set Server ID with Runner Name
         run: |
+          CLEAN_RUNNER="runner"
           if [ -n "$RUNNER_NAME" ]; then
-            echo "SERVER_ID=gh_${{ github.run_id }}_${{ github.run_attempt }}_${RUNNER_NAME}" >> $GITHUB_ENV
+            CLEAN_RUNNER=$(echo "$RUNNER_NAME" | sed 's/[^a-zA-Z0-9_-]/_/g')
           fi
+          echo "SERVER_ID=gh_${{ github.run_id }}_${{ github.run_attempt }}_${CLEAN_RUNNER}" >> $GITHUB_ENV
 
       - name: Set up Python
         uses: actions/setup-python@v5
