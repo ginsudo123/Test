@@ -29,7 +29,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      SERVER_ID: "gh_${{ github.run_id }}_${{ github.run_attempt }}_${{ runner.name }}"
+      SERVER_ID: "gh_${{ github.run_id }}_${{ github.run_attempt }}"
     services:
       flaresolverr:
         image: ghcr.io/flaresolverr/flaresolverr:latest
@@ -38,6 +38,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set Server ID with Runner Name
+        run: |
+          if [ -n "$RUNNER_NAME" ]; then
+            echo "SERVER_ID=gh_${{ github.run_id }}_${{ github.run_attempt }}_${RUNNER_NAME}" >> $GITHUB_ENV
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
